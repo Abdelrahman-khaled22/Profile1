@@ -1,0 +1,513 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: #555555;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+}
+/* home @ nav*/
+.home {
+  width: 100%;
+  height: 100vh;
+  /* background-color: rgba(0, 0, 0, 0.5); not work */
+  background: url(images/slider-01.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.home-navbar{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 30px;
+}
+.home-navbar a {
+    width: 10%;
+    float: left;
+}
+ span {
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 18px  0;
+}
+ul {
+    float: right;
+    list-style: none;
+}
+.home-navbar ul li {
+    margin: 0px 40px 0px 0px;
+    font-size: 16px;
+    font-weight: 300;
+    float: left;
+    text-transform: capitalize;
+}
+.home-navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.home-navbar ul li  :hover {
+    color: #ff305b;
+    text-decoration: none;
+}
+
+/* content */
+.content {
+  width: 100;
+  position: absolute;
+  top: 30%;
+  transform: translate(100%);
+  text-align: center;
+  line-height: 30px;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: large;
+}
+.content h4 {
+  font-size: 26px;
+  text-transform: capitalize;
+  color: #fff;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.content h1 {
+  color: #ff305b;
+  font-size: 70px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.picture {
+  float: left;
+  border-width: 8px;
+  border-style: solid;
+  border-color: #555555;
+  border-radius: 5px;
+  z-index: 2;
+}
+.Double{
+    float: left;
+}
+.picture img {
+  position: relative;
+  z-index: 1;
+  left: 25px;
+  top: 30px;
+}
+.about-text {
+  float: left;
+  margin-left: 50px;
+}
+h2 {
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 0px;
+  margin-bottom: 10px;
+  padding-left: 13px;
+  position: relative;
+  text-transform: uppercase;
+}
+.hr-hello {
+  border-width: 2px;
+  border-style: solid;
+  border-color: red;
+  display: inline;
+  margin-right: 10px;
+}
+.data {
+  display: inline-block;
+}
+
+.data-2 {              /* 80px */
+  display: inline-block;
+  margin-left: 80px;
+}
+span {
+  color: #333333;
+  font-weight: 500;
+  font-size: 18px;
+}
+.ul2 {
+  list-style: none;
+}
+.ul-one {
+  display: inline-block;
+}
+.ul-two {
+  display: inline-block;
+  margin-left: 80px;
+}
+.ul-two li a {
+  text-decoration: none;
+  color: #7e7e7e;
+}
+.btn-group .button {
+  background-color: #ff305b;
+  border: 1px solid #ff305b;
+  border-radius: 4px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  float: left;
+  margin-left: 10px;
+}
+.btn-group .button:hover {
+  background-color: red;
+}
+
+/* crl */
+.crl {
+  clear: both;
+}
+
+/* center */
+.center {
+  font-size: 37px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #333;
+  position: relative;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+/* container */
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+
+/* Our-services  */
+
+.hr-1 hr {
+  border-style: solid;
+  border-color: red;
+  width: 5%;
+  margin: auto;
+  padding: 2px 0;
+}
+.hr-2 hr{
+    border-style: solid;
+    border-color: red;
+    width: 15%;
+    margin: auto;
+    padding: 2px 0;
+}
+.Our-services {
+  background-color: #f1f1f1;
+}
+.services i {
+  color: red;
+}
+.services h3 {
+  color: black;
+}
+.services-1 {
+  float: left;
+  text-align: center;
+  margin-left: 10px;
+}
+.services-1 :hover{
+    background-color: #fff;
+}
+.services-2 {
+  float: left;
+  text-align: center;
+  margin-left: 10px;
+}
+.services-2 :hover{
+  background-color: #fff;
+}
+.services-3 {
+  float: left;
+  text-align: center;
+  margin-left: 10px;
+}
+.services-3 :hover{
+  background-color: #fff;
+}
+.services-4 {
+  float: left;
+  text-align: center;
+  margin-left: 10px;
+}
+.services-4 :hover{
+  background-color: #fff;
+}
+
+/* Portfolio */
+
+.link ul li {
+    margin: 0px 40px 0px 0px;
+    font-size: 16px;
+    font-weight: 300;
+    float: left;
+    text-transform: capitalize;
+}
+.link ul a {
+    list-style: none;
+    text-decoration: none;
+    color: rgb(83, 81, 81);
+}
+.Portfolio-1{
+    float: left;
+    width: 30%;
+    margin-left: 20px;
+}
+.Portfolio-1 img {
+    width: 100%;
+}
+.Portfolio-2{
+    float: left;
+    width: 30%;
+    margin-left: 20px;
+}
+.Portfolio-2 img {
+    width: 100%;
+}
+.Portfolio-3{
+    float: left;
+    width: 30%;
+    margin-left: 20px;
+}
+.Portfolio-3 img {
+    width: 100%;
+}
+
+/* numbers */
+.numbers{
+    text-align: center;
+    background-color: #f1f1f1;
+}
+.numbers-1{
+    float: left;
+    width: 25%;
+}
+.numbers-2{
+    float: left;
+    width: 25%;
+}
+.numbers-3{
+    float: left;
+    width: 25%;
+}
+.numbers-4{
+    float: left;
+    width: 25%;
+}
+.numbers h6{
+    font-size: 26px;
+    font-weight: 800;
+}
+.numbers i {
+    color: #ff305b;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+.numbers span {
+    color: #555555;
+    font-size: 16px;
+    margin: 0;
+}
+
+
+/* Client' Feedback */
+.picture-Client {
+  float: left;
+  width: 50%;
+}
+.border-Client{
+   width: 60%;
+   margin: auto;
+   padding: 0 50px;
+   background-color: #F1F1F1;
+}
+.picture-Client img {
+  float: right;
+  width: 30%;
+  height: 30%;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #F1F1F1 ;
+}
+.Client-text {
+  float: left;
+  width: 50%;
+}
+h2 {
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  position: relative;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+
+/* our Blog */
+
+.Our-Blog {
+  background-color: #f1f1f1;
+}
+.Blog-1 p {
+  padding: 10px 10px 0px 20px;
+}
+.Blog-1 a {
+  padding: 10px 10px 0px 20px;
+}
+.Blog-2 p {
+  padding: 10px 10px 0px 20px;
+}
+.Blog-2 a {
+  padding: 10px 10px 0px 20px;
+}
+.Blog-3 p {
+  padding: 10px 10px 0px 20px;
+}
+.Blog-3 a {
+  padding: 10px 10px 0px 20px;
+}
+.Blog-1{
+  float: left;
+  width: 31%;
+  margin-left: 20px;
+  background-color: white;
+}
+.Blog-1 img {
+  width: 100%;
+}
+.Blog-2{
+  float: left;
+  width: 31%;
+  margin-left: 20px;
+  background-color: white;
+}
+.Blog-2 img {
+  width: 100%;
+}
+.Blog-3{
+  float: left;
+  width: 31%;
+  margin-left: 20px;
+  background-color: white;
+  /* padding: 0px 5px 0px 20px ; */
+}
+.Blog-3 img {
+  width: 100%;
+}
+.Blog a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+ }
+.Blog h2 :hover {
+  color: #ff305b ;
+ }
+
+
+ /* form */
+
+ .test{
+   width: 25%;
+   float: left;
+ }
+ .form{
+  width: 75%;
+  float: left;
+ }
+.flot-1
+  {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.flot-2
+  {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.subject{
+  width: 81%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.message{
+  width: 81%;
+  height: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.button-form{
+  background-color: #ff305b;
+  border: 1px solid #ff305b;
+  border-radius: 4px;
+  color: white;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  float: left;
+  margin-left: 10px;
+}
+.form .button:hover {
+  background-color: red;
+}
+
+/* footer */
+
+.footer a {
+  text-decoration: none;
+  color: #ff305b;
+}
+.icon a {
+  text-align: center;
+  color: #fff;
+  margin-left: 15px;
+}
+.footer{
+  background-color: #333333 ;
+  text-align: center;
+}
+
+
+
+.nums{
+  width: 100%;
+  display: flex;
+}
+.nums .num {
+  flex: 1;
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+}
